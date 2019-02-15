@@ -1,0 +1,3 @@
+[submodule "fibaro_scripts"]
+	path = fibaro_scripts
+	url = https://github.com/Jaclawiciel/Kevin-Mode-Fibaro.git
