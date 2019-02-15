@@ -16,7 +16,7 @@ Jeżeli dla procesu nauki jednej żarówki, ilość poprawnych odpowiedzi jest w
 Jeżeli użytkownik inteligentnego domu, zadecyduje się włączyć tryb KevinMode, system fibaro zacznie co minutę odpytywać o stan wszystkich żarówek, następnie na podstawie otrzymanych danych włączy/wyłączy konkretne egzemplarze.
 Dzięki temu, gdy nikogo w domu nie będzie, dom wyuczając się wzorców na podstawie danych, które już były w systemie fibaro przed wprowadzeniem KevinMode (oraz powiększających się codziennie o nowe próbki) jest wstanie symulować przebywanie w nim. Jest to dodatkowe rozszerzenie już działającego systemu zabezpieczającego dom.
 
-W planach mamy jeszcze naukę systemu konkretnego natężenia światła.
+W planach mamy jeszcze naukę systemu konkretnego natężenia światła oraz obsługę innych urządzeń domowych (TV, radio itp.)
 
 ### Techniczna część
 #### Docker
