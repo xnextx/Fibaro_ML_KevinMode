@@ -29,26 +29,26 @@ Całość została opakowana w 2 kontenery dockerowe:
  * sklearn
 
 #### API
-#####[GET] /get_lights
-######Parametry:
+##### [GET] /get_lights
+###### Parametry:
 * lights = id żarówki, id żarówki
 
 ###### Opis:
 Zwraca stan dla każdej odpytywanej żarówki w formie tablicy JSON (0, 1 lub ERROR jeżeli żarówka nie mogła być dopisana do listy "wyuczonych")
 
 ##### [POST] /add_new_sample
-######Parametry:
+###### Parametry:
 * lightId - ID żarówki
 * state - aktualny stan
 * timestamp - timestamp zmiany
-######Opis:
+###### Opis:
 Przyjmuje każdą zmianę stanu żarówki i zapisuje do bazy postgres.
 
 ##### [GET] /start_training
-######Parametry:
+###### Parametry:
 * brak
 
-######Opis:
+###### Opis:
 Po wywołaniu rozpoczyna trening dla każdej z żarówek i zapisuje wyniki do katalogu models w formacie: lights_model_{id żarówki}
 
-[EN]
+## [EN]
