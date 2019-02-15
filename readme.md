@@ -24,9 +24,10 @@ Całość została opakowana w 2 kontenery dockerowe:
 
 * postgres
 * api
- * flask
- * pandas
- * sklearn
+	* flask
+ 	* pandas
+ 	* sklearn
+	* ...
 
 #### API
 ##### [GET] /get_lights
