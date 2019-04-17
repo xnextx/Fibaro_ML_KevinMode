@@ -78,3 +78,8 @@ class Training(object):
 # training = Training()
 # # training.start()
 # # print(training.get_results())
+
+
+# todo: podłączenie crona do odpalania uczenia start_training lub podłączenie gdzieś w fibaro
+# todo: podłączenie zapisu z fibaro podczas zmian stanu żarówek
+# todo: podłączenie fibaro do odczytu danych
